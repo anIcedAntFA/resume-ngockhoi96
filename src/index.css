@@ -5,9 +5,9 @@
 
 @layer base {
   th {
-    @apply p-2;
+    @apply p-1;
   }
   td {
-    @apply p-1
+    @apply py-1 px-2
   }
 }

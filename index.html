@@ -13,46 +13,47 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
   </head>
 
-  <body class="font-primary">
-    <div class="w-a4 h-a4 p-4 bg-slate-300">
-      <header class="flex flex-col items-center gap-2">
-        <h1 class="text-6xl font-extrabold uppercase">Pham Ngoc Khoi</h1>
-        <h3 class="text-xl font-medium">Front-End Developer (Intern/Fresher)</h3>
-      </header>
-      <hr class="my-4 border border-slate-700" />
-
-      <main>
-        <section class="flex flex-col items-center gap-2">
-          <div class="flex gap-4">
-            <span class="flex items-center gap-2">
-              <iconify-icon icon="bxs:phone-call"></iconify-icon>
-              +84 963 799 244
-            </span>
-            <span class="flex items-center gap-2">
-              <iconify-icon icon="entypo:mail"></iconify-icon>
-              ngockhoi96.dev@gmail.com
-            </span>
-          </div>
-          <div class="flex gap-4">
-            <span class="flex items-center gap-2">
-              <iconify-icon icon="carbon:location-filled"></iconify-icon>
-              Thu Duc city, Saigon, Vietnam
-            </span>
-            <span class="flex items-center gap-2">
-              <iconify-icon icon="akar-icons:linkedin-v1-fill"></iconify-icon>
-              <a
-                href="linkedin.com/in/pham-ngoc-khoi"
-                target="_blank"
-                class="underline underline-offset-4 text-blue-700"
-                >linkedin.com/in/pham-ngoc-khoi</a
-              >
-            </span>
-          </div>
+  <body class="font-primary text-sm flex justify-center bg-pink-200">
+    <div class="w-a4 h-a4 p-8 bg-white text-justify">
+      <header class="flex items-center justify-between gap-4">
+        <section class="flex flex-col gap-1">
+          <h1 class="text-4xl font-bold uppercase">Pham Ngoc Khoi</h1>
+          <h3
+            class="relative ml-4 py-1 px-2 text-lg bg-slate-300 before:content before:absolute before:h-[2.25rem] before:bg-red-400 before:w-2 before:-left-4 before:top-0"
+          >
+            Front-End Developer (Intern)
+          </h3>
         </section>
-        <hr class="my-4 border border-slate-700" />
 
-        <section>
-          <h2 class="text-2xl font-bold">Summary</h2>
+        <section class="flex flex-col">
+          <span class="flex items-center gap-2">
+            <iconify-icon icon="bxs:phone-call"></iconify-icon>
+            +84 963 799 244
+          </span>
+          <span class="flex items-center gap-2">
+            <iconify-icon icon="entypo:mail"></iconify-icon>
+            ngockhoi96.dev@gmail.com
+          </span>
+          <span class="flex items-center gap-2">
+            <iconify-icon icon="carbon:location-filled"></iconify-icon>
+            Thu Duc city, Saigon, Vietnam
+          </span>
+          <span class="flex items-center gap-2">
+            <iconify-icon icon="akar-icons:linkedin-v1-fill"></iconify-icon>
+            <a
+              href="linkedin.com/in/pham-ngoc-khoi"
+              target="_blank"
+              class="underline underline-offset-4 text-blue-700"
+              >linkedin.com/in/pham-ngoc-khoi</a
+            >
+          </span>
+        </section>
+      </header>
+      <!-- <hr class="my-4 border-4 border-slate-300" /> -->
+
+      <main class="flex flex-col gap-3 mt-8">
+        <section class="flex flex-col gap-1">
+          <h2 class="text-xl font-semibold">Summary</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam deleniti animi
             consequuntur recusandae natus laudantium quae eligendi, at, suscipit ex asperiores nobis
@@ -60,61 +61,98 @@
           </p>
         </section>
 
-        <section class="flex flex-col gap-4">
-          <h2 class="text-2xl font-bold">Personal Projects</h2>
-          <div>
-            <div class="flex justify-between">
-              <h4 class="text-xl font-medium">Miki Jewelry</h4>
-              <time>18/07/2022 - Now</time>
+        <section class="flex flex-col">
+          <h2 class="text-xl font-semibold">Personal Projects</h2>
+
+          <div class="flex flex-col">
+            <div class="flex items-center justify-between">
+              <h4 class="text-lg font-medium uppercase">Miki Jewelry</h4>
+              <time class="font-medium">18/07/2022 - Now</time>
             </div>
             <table class="table-fixed border-spacing-2 border border-slate-500">
               <tr>
                 <th class="border border-slate-600">Description</th>
-                <td class="border border-slate-700"></td>
+                <td class="border border-slate-700">
+                  <iconify-icon icon="akar-icons:minus" width="12" height="12"></iconify-icon>
+                  Introduce: An online store, với sản phẩm là trang sức nữ, tập khách hàng là phái
+                  nữ tuổi từ 14-30, giá sản phẩm ở mức sinh viên <br />
+                  <iconify-icon icon="akar-icons:minus" width="12" height="12"></iconify-icon>
+                  Features: Register/login with email, google, facebook; Cart management; Admin Dashboard manage
+                  products, customers, orders, coupons; CRUD, search/filter, pagination, comment,
+                  notifications; SEO optimization
+                </td>
               </tr>
               <tr>
                 <th class="border border-slate-600">Members</th>
-                <td class="border border-slate-700">5 members: 1 front-end, 1 back-end, 3 UI/UX designer</td>
+                <td class="border border-slate-700">
+                  5 members: 1 front-end, 1 back-end, 3 UI/UX designer
+                </td>
               </tr>
               <tr>
                 <th class="border border-slate-600">Position</th>
                 <td class="border border-slate-700">Leader, front-end</td>
               </tr>
               <tr>
-                <th class="border border-slate-600">Technologies</th>
+                <th class="border border-slate-600">Responsibilities</th>
                 <td class="border border-slate-700">
-                  Front-end: Nextjs, Reactjs, Tailwindcss Back-end: Nextjs Database: MongoDB Other:
-                  React Hook Form v7, Recoiljs, React Table v7
+                  <iconify-icon icon="akar-icons:minus" width="12" height="12"></iconify-icon>
+                  Discuss and make decisions with UI/UX designers <br />
+                  <iconify-icon icon="akar-icons:minus" width="12" height="12"></iconify-icon>
+                  Source code management <br />
+                  <iconify-icon icon="akar-icons:minus" width="12" height="12"></iconify-icon>
+                  Front-end coding: Evaluating front-end technologies, discuss with back-end dev about APIs, 
                 </td>
               </tr>
               <tr>
-                <th class="border border-slate-600">Responsibilities</th>
-                <td class="border border-slate-700"></td>
+                <th class="border border-slate-600">Technologies</th>
+                <td class="border border-slate-700">
+                  <div class="">
+                    <iconify-icon icon="fa:terminal"></iconify-icon> Front-end: Nextjs, Reactjs,
+                    Tailwindcss <br />
+                    <iconify-icon icon="fa:terminal"></iconify-icon> Back-end: Nextjs <br />
+                    <iconify-icon icon="fa:terminal"></iconify-icon> Database: MongoDB <br />
+                    <iconify-icon icon="fa:terminal"></iconify-icon> Others: Recoiljs, React Hook
+                    Form v7, React Table v7, ...
+                  </div>
+                </td>
               </tr>
               <tr>
                 <th class="border border-slate-600">Links</th>
-                <td class="border border-slate-700">Deploy: Github:</td>
+                <td class="border border-slate-700">
+                  <div class="flex flex-col">
+                    <span
+                      ><iconify-icon icon="carbon:deploy"></iconify-icon> Deploy:
+                      <a
+                        href="https://github.com/anIcedAntFA/quiz_app_version_1.6--vanillaJS"
+                        target="_blank"
+                        class="text-blue-700"
+                        >quiz-app-version-1-6-vanilla-js.vercel.app/</a
+                      ></span
+                    >
+                    <span class="flex items-center gap-1">
+                      <iconify-icon icon="charm:git-branch"></iconify-icon> Source code:
+                      <a
+                        href="https://github.com/anIcedAntFA/Miki_Shop-Next.js"
+                        target="_blank"
+                        class="text-blue-700"
+                        >github.com/anIcedAntFA/Miki_Shop-Next.js</a
+                      ></span
+                    >
+                  </div>
+                </td>
               </tr>
             </table>
           </div>
 
-          <div>
-            <div class="flex justify-between">
-              <h4 class="text-xl font-medium">Javascript Quiz App 1.8</h4>
-              <time>05/06/2022 - Now</time>
+          <div class="flex flex-col mt-2">
+            <div class="flex items-center justify-between">
+              <h4 class="text-lg font-medium uppercase">Javascript Quiz App 1.8</h4>
+              <time class="font-medium">05/06/2022 - Now</time>
             </div>
             <table class="table-fixed border-spacing-2 border border-slate-500">
               <tr>
                 <th class="border border-slate-600">Description</th>
                 <td class="border border-slate-700"></td>
-              </tr>
-              <tr>
-                <th class="border border-slate-600">Members</th>
-                <td class="border border-slate-700">1 members, 1 front-end</td>
-              </tr>
-              <tr>
-                <th class="border border-slate-600">Position</th>
-                <td class="border border-slate-700">Front-end</td>
               </tr>
               <tr>
                 <th class="border border-slate-600">Technologies</th>
@@ -154,7 +192,7 @@
         </section>
 
         <section>
-          <h2 class="text-2xl font-bold">Technical Skills</h2>
+          <h2 class="text-xl font-semibold">Technical Skills</h2>
           <div>
             <div>
               <strong>Programming Languages:</strong>
@@ -172,7 +210,7 @@
         </section>
 
         <section>
-          <h2 class="text-2xl font-bold">Others</h2>
+          <h2 class="text-xl font-semibold">Others</h2>
           <div>
             <strong>Foreign Languages:</strong>
             Toeic: 720
