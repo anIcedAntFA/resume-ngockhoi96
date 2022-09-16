@@ -11,3 +11,14 @@
     @apply py-1 px-2
   }
 }
+
+
+.triangle-bottomright {
+  position: absolute;
+  top: 1030px;
+  left: 50px;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid gray;
+  border-left: 943px solid transparent;
+}

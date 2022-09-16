@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         primary: ['Fira Sans']
       },
+      color: {
+        primary: '#251C17'
+      },
       width: {
         'a4': '210mm'
       },

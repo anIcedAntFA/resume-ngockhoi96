@@ -13,13 +13,15 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
   </head>
 
-  <body class="font-primary text-sm flex justify-center bg-pink-200">
-    <div class="w-a4 h-a4 p-8 bg-white text-justify">
+  <body
+    class="font-primary text-[13px] text-primary flex flex-col items-center justify-center bg-pink-200"
+  >
+    <div class="w-a4 h-a4 p-6 bg-white text-justify overflow:hidden">
       <header class="flex items-center justify-between gap-4">
         <section class="flex flex-col gap-1">
           <h1 class="text-4xl font-bold uppercase">Pham Ngoc Khoi</h1>
           <h3
-            class="relative ml-4 py-1 px-2 text-lg bg-slate-300 before:content before:absolute before:h-[2.25rem] before:bg-red-400 before:w-2 before:-left-4 before:top-0"
+            class="relative ml-4 py-1 px-2 text-lg bg-gray-200 before:content before:absolute before:h-[2.25rem] before:bg-[#251C17] before:w-2 before:-left-4 before:top-0"
           >
             Front-End Developer (Intern)
           </h3>
@@ -44,14 +46,15 @@
               href="linkedin.com/in/pham-ngoc-khoi"
               target="_blank"
               class="underline underline-offset-4 text-blue-700"
-              >linkedin.com/in/pham-ngoc-khoi</a
+              >linkedin.com/in/phạm-ngọc-khôi-b33804117/</a
             >
           </span>
         </section>
       </header>
-      <!-- <hr class="my-4 border-4 border-slate-300" /> -->
 
-      <main class="flex flex-col gap-3 mt-8">
+      <!-- <hr class="my-3 border border-[#251C17]" /> -->
+
+      <main class="flex flex-col gap-3 mt-6">
         <section class="flex flex-col gap-1">
           <h2 class="text-xl font-semibold">Summary</h2>
           <p>
@@ -74,18 +77,20 @@
                 <th class="border border-slate-600">Description</th>
                 <td class="border border-slate-700">
                   <iconify-icon icon="akar-icons:minus" width="12" height="12"></iconify-icon>
-                  Introduce: An online store, với sản phẩm là trang sức nữ, tập khách hàng là phái
-                  nữ tuổi từ 14-30, giá sản phẩm ở mức sinh viên <br />
+                  Introduce: An online jewelry store with potential customers are students and u30
+                  female <br />
                   <iconify-icon icon="akar-icons:minus" width="12" height="12"></iconify-icon>
-                  Features: Register/login with email, google, facebook; Cart management; Admin Dashboard manage
-                  products, customers, orders, coupons; CRUD, search/filter, pagination, comment,
-                  notifications; SEO optimization
+                  Features: Register/Login with email (verification), google, facebook; Admin
+                  Dashboard manage products, customers, orders, coupons & data visualization; Cart &
+                  Account management; CRUD, search, filter (category, favorites ordered by date,
+                  price, sales, popular), pagination (typical, infinite loading), comment,
+                  notifications; SEO optimization; Responsive (desktop & mobile)
                 </td>
               </tr>
               <tr>
                 <th class="border border-slate-600">Members</th>
                 <td class="border border-slate-700">
-                  5 members: 1 front-end, 1 back-end, 3 UI/UX designer
+                  5 members: 2 front-end, 1 back-end, 1 full-stack, 1 UI/UX designer
                 </td>
               </tr>
               <tr>
@@ -95,50 +100,69 @@
               <tr>
                 <th class="border border-slate-600">Responsibilities</th>
                 <td class="border border-slate-700">
-                  <iconify-icon icon="akar-icons:minus" width="12" height="12"></iconify-icon>
-                  Discuss and make decisions with UI/UX designers <br />
-                  <iconify-icon icon="akar-icons:minus" width="12" height="12"></iconify-icon>
-                  Source code management <br />
-                  <iconify-icon icon="akar-icons:minus" width="12" height="12"></iconify-icon>
-                  Front-end coding: Evaluating front-end technologies, discuss with back-end dev about APIs, 
+                  <ul>
+                    <li>
+                      <iconify-icon icon="akar-icons:minus" width="12" height="12"></iconify-icon>
+                      Discuss and make decisions with UI/UX designers
+                    </li>
+                    <li>
+                      <iconify-icon icon="akar-icons:minus" width="12" height="12"></iconify-icon>
+                      Evaluating front-end technologies; discuss with back-end dev about APIs; use
+                      SWR for data fetching; manage global state with Recoiljs; control
+                      & validate form with React hook form & Yup...
+                    </li>
+                  </ul>
                 </td>
               </tr>
               <tr>
                 <th class="border border-slate-600">Technologies</th>
                 <td class="border border-slate-700">
-                  <div class="">
-                    <iconify-icon icon="fa:terminal"></iconify-icon> Front-end: Nextjs, Reactjs,
-                    Tailwindcss <br />
-                    <iconify-icon icon="fa:terminal"></iconify-icon> Back-end: Nextjs <br />
-                    <iconify-icon icon="fa:terminal"></iconify-icon> Database: MongoDB <br />
-                    <iconify-icon icon="fa:terminal"></iconify-icon> Others: Recoiljs, React Hook
-                    Form v7, React Table v7, ...
-                  </div>
+                  <ul>
+                    <li>
+                      <iconify-icon icon="fa:terminal"></iconify-icon> Front-end: Nextjs, Reactjs,
+                      Tailwindcss
+                    </li>
+                    <li><iconify-icon icon="fa:terminal"></iconify-icon> Back-end: Nextjs</li>
+                    <li><iconify-icon icon="fa:terminal"></iconify-icon> Database: MongoDB</li>
+                    <li>
+                      <iconify-icon icon="fa:terminal"></iconify-icon> Others: Recoiljs, React Hook
+                      Form v7, Yup, React Table v7, useSWR...
+                    </li>
+                  </ul>
                 </td>
               </tr>
               <tr>
                 <th class="border border-slate-600">Links</th>
                 <td class="border border-slate-700">
-                  <div class="flex flex-col">
-                    <span
-                      ><iconify-icon icon="carbon:deploy"></iconify-icon> Deploy:
+                  <ul class="flex flex-col">
+                    <li>
+                      <iconify-icon icon="carbon:deploy"></iconify-icon> Demo:
                       <a
                         href="https://github.com/anIcedAntFA/quiz_app_version_1.6--vanillaJS"
                         target="_blank"
                         class="text-blue-700"
                         >quiz-app-version-1-6-vanilla-js.vercel.app/</a
-                      ></span
-                    >
-                    <span class="flex items-center gap-1">
+                      >
+                    </li>
+                    <li class="flex items-center gap-1">
+                      <iconify-icon icon="akar-icons:figma-fill"></iconify-icon> Figma:
+                      <a
+                        href="https://github.com/anIcedAntFA/Miki_Shop-Next.js"
+                        target="_blank"
+                        class="text-blue-700"
+                        >github.com/anIcedAntFA/Miki_Shop-Next.js</a
+                      >
+                    </li>
+                    <li class="flex items-center gap-1">
                       <iconify-icon icon="charm:git-branch"></iconify-icon> Source code:
                       <a
                         href="https://github.com/anIcedAntFA/Miki_Shop-Next.js"
                         target="_blank"
                         class="text-blue-700"
                         >github.com/anIcedAntFA/Miki_Shop-Next.js</a
-                      ></span
-                    >
-                  </div>
+                      >
+                    </li>
+                  </ul>
                 </td>
               </tr>
             </table>
@@ -146,45 +170,50 @@
 
           <div class="flex flex-col mt-2">
             <div class="flex items-center justify-between">
-              <h4 class="text-lg font-medium uppercase">Javascript Quiz App 1.8</h4>
+              <h4 class="text-lg font-medium uppercase">Quiz App version 1.8</h4>
               <time class="font-medium">05/06/2022 - Now</time>
             </div>
             <table class="table-fixed border-spacing-2 border border-slate-500">
               <tr>
                 <th class="border border-slate-600">Description</th>
-                <td class="border border-slate-700"></td>
+                <td class="border border-slate-700">
+                  Introduce: My pet project for studying Javascript, HTML, CSS; Learn how to build a
+                  Javascript library
+                  <br />
+                  Features: Validations, dialog (modal), toast notification; Dark and light mode;
+                  Render questions based on player settings (amount, difficulty, type, category);
+                  Timer countdown; Ranking with multiple players
+                </td>
               </tr>
               <tr>
                 <th class="border border-slate-600">Technologies</th>
-                <td class="border border-slate-700">Vanilla Javascript, preprocessor SCSS</td>
-              </tr>
-              <tr>
-                <th class="border border-slate-600">Responsibilities</th>
-                <td class="border border-slate-700"></td>
+                <td class="border border-slate-700">
+                  Vanilla Javascript, preprocessor SCSS
+                </td>
               </tr>
               <tr>
                 <th class="border border-slate-600">Links</th>
                 <td class="border border-slate-700">
-                  <div class="flex flex-col">
-                    <span
-                      >Deploy:
+                  <ul class="flex flex-col">
+                    <li>
+                      <iconify-icon icon="carbon:deploy"></iconify-icon> Demo:
                       <a
                         href="https://github.com/anIcedAntFA/quiz_app_version_1.6--vanillaJS"
                         target="_blank"
                         class="text-blue-700"
-                        >quiz-app-version-1-6-vanilla-js.vercel.app/</a
-                      ></span
-                    >
-                    <span
-                      >Source code:
+                        >quiz-app-vanilla-js.vercel.app/</a
+                      >
+                    </li>
+                    <li class="flex items-center gap-1">
+                      <iconify-icon icon="charm:git-branch"></iconify-icon> Source code:
                       <a
-                        href="https://quiz-app-version-1-6-vanilla-js.vercel.app/"
+                        href="https://github.com/anIcedAntFA/Miki_Shop-Next.js"
                         target="_blank"
                         class="text-blue-700"
-                        >github.com/anIcedAntFA/quiz_app_version_1.6--vanillaJS/</a
-                      ></span
-                    >
-                  </div>
+                        >github.com/anIcedAntFA/quiz_app_vanillajs</a
+                      >
+                    </li>
+                  </ul>
                 </td>
               </tr>
             </table>
@@ -193,20 +222,25 @@
 
         <section>
           <h2 class="text-xl font-semibold">Technical Skills</h2>
-          <div>
-            <div>
+          <ul>
+            <li>
               <strong>Programming Languages:</strong>
               Javascript & TypeScript
-            </div>
-            <div>
+            </li>
+            <li>
               <strong>Frameworks/Libraries:</strong>
-              Nextjs, Reactjs Tailwindcss, MaterialUI (v5)
-            </div>
-            <div>
+              Nextjs, Reactjs, Tailwindcss, MaterialUI, Recoijs, React hook form, Yup, React
+              table,...
+            </li>
+            <li>
+              <strong>Source code management tools:</strong>
+              Git
+            </li>
+            <li>
               <strong>Others:</strong>
-              HTML5, CSS3, SASS, Git
-            </div>
-          </div>
+              HTML5, CSS3, SASS
+            </li>
+          </ul>
         </section>
 
         <section>
