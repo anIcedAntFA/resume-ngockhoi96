@@ -5,10 +5,10 @@
 
 @layer base {
   th {
-    @apply p-1;
+    @apply p-1 border border-slate-600;
   }
   td {
-    @apply py-1 px-2
+    @apply py-1 px-2 border border-slate-700;
   }
 }
 
