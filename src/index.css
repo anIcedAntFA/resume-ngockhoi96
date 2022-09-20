@@ -10,6 +10,10 @@
   td {
     @apply py-1 px-2 border border-slate-700;
   }
+
+  a {
+    @apply underline underline-offset-2 text-blue-700;
+  }
 }
 
 
